@@ -27,19 +27,19 @@ export default function Projects() {
             MIc
           </p>
           <div className="max-w-[40ch]">
-            <span class="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
+            <span className="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
               Current
             </span>
-            <span class="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
+            <span className="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
               Current
             </span>
-            <span class="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
+            <span className="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
               Current
             </span>
-            <span class="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
+            <span className="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
               Current
             </span>
-            <span class="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
+            <span className="bg-blue-100 text-gray-600 text-sm font-medium mr-1 px-1.5 py-0.5 rounded">
               Current
             </span>
           </div>

@@ -58,12 +58,12 @@ export default function Skills() {
 
           {frontend.map((skill, index) => (
             <div key={index} className="mt-1">
-              <div class="mb-1 text-md font-normal text-gray-600">
+              <div className="mb-1 text-md font-normal text-gray-600">
                 {skill.title}
               </div>
-              <div class="w-full h-4 bg-gray-200 rounded-full">
+              <div className="w-full h-4 bg-gray-200 rounded-full">
                 <div
-                  class="h-4 bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full"
+                  className="h-4 bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full"
                   style={{ width: skill.level }}
                 ></div>
               </div>
@@ -78,12 +78,12 @@ export default function Skills() {
 
           {backend.map((skill, index) => (
             <div key={index} className="mt-1">
-              <div class="mb-1 text-md font-normal text-gray-600">
+              <div className="mb-1 text-md font-normal text-gray-600">
                 {skill.title}
               </div>
-              <div class="w-full h-4 bg-gray-200 rounded-full">
+              <div className="w-full h-4 bg-gray-200 rounded-full">
                 <div
-                  class="h-4 bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full"
+                  className="h-4 bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full"
                   style={{ width: skill.level }}
                 ></div>
               </div>

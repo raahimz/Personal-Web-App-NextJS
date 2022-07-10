@@ -37,12 +37,12 @@ export default function Experience() {
         Experience
       </h1>
       <div className="mt-16 sm:ml-16 ml-2 flex justify-center">
-        <ol class="relative border-l border-green-400">
+        <ol className="relative border-l border-green-400">
           {experiences.map((exp, index) => (
-            <li key={index} class="mb-10 ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-green-200 rounded-full ring-8 ring-white">
+            <li key={index} className="mb-10 ml-6">
+              <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-green-200 rounded-full ring-8 ring-white">
                 <svg
-                  class="w-3 h-3 text-green-600"
+                  className="w-3 h-3 text-green-600"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,18 +54,18 @@ export default function Experience() {
                   ></path>
                 </svg>
               </span>
-              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-700">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-700">
                 {exp.title}{" "}
                 {exp.current && (
-                  <span class="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">
+                  <span className="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">
                     Current
                   </span>
                 )}
               </h3>
-              <time class="block mb-2 text-sm font-semibold leading-none text-gray-400">
+              <time className="block mb-2 text-sm font-semibold leading-none text-gray-400">
                 {exp.date}
               </time>
-              <div class="mb-4 text-base font-normal text-gray-500">
+              <div className="mb-4 text-base font-normal text-gray-500">
                 {exp.roles.map((role, index) => (
                   <p key={index}>• {role}</p>
                 ))}
@@ -74,7 +74,7 @@ export default function Experience() {
                 {exp.skills.map((skill, index) => (
                   <span
                     key={index}
-                    class="bg-blue-100 text-gray-500 text-sm font-medium mr-1 mt-1 px-2.5 py-0.5 rounded inline-block"
+                    className="bg-blue-100 text-gray-500 text-sm font-medium mr-1 mt-1 px-2.5 py-0.5 rounded inline-block"
                   >
                     {skill}
                   </span>
@@ -82,7 +82,7 @@ export default function Experience() {
               </div>
             </li>
           ))}
-          <span class="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">
+          <span className="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">
             Start ✈️
           </span>
         </ol>

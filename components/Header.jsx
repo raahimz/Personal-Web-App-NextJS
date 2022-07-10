@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Image from "next/image";
 import img from "../public/coder.png";
+import Link from "next/link";
 
 export default function Header() {
   const handleClick = (element) => {
