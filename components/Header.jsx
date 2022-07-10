@@ -16,26 +16,26 @@ export default function Header() {
       <div id="stars2"></div>
       <div id="stars3"></div>
 
-      <div className="flex gap-2 sm:gap-8 sm:px-16 px-4 py-5 bg-transparent">
-        <h3 className="text-gray-300 text-4xl hover:text-gray-100 font-bold cursor-pointer">
+      <div className="flex gap-4 sm:gap-8 sm:px-16 px-4 py-5 bg-transparent">
+        <h3 className="text-gray-300 text-2xl sm:text-4xl hover:text-gray-100 font-bold cursor-pointer">
           Raahim Zee.
         </h3>
         <div className="flex-grow"></div>
         <h3
           onClick={() => handleClick("introduction")}
-          className="text-gray-300 text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
+          className="text-gray-300 text-xl sm:text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
         >
           About
         </h3>
         <h3
           onClick={() => handleClick("skills")}
-          className="text-gray-300 text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
+          className="text-gray-300 text-xl sm:text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
         >
           Skills
         </h3>
         <h3
           onClick={() => handleClick("experience")}
-          className="text-gray-300 text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
+          className="text-gray-300 text-xl sm:text-2xl self-center hover:text-gray-100 font-extralight cursor-pointer"
         >
           Experience
         </h3>
